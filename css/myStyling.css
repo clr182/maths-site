@@ -1,0 +1,23 @@
+.floating-element{
+    background-color: #aadf9f;
+    position:absolute;
+    z-index: 1;
+    top: 90px;
+    right: 25px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  }
+
+
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .floating-element {
+      position: relative;
+      width: 100%;
+      padding: 20px;
+      right:0px;
+      top:30px;
+
+    }
+  }
